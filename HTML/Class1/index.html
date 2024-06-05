@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Primera clase de html" />
+    <meta name="author" content="Jairo Agudelo" />
+    <meta name="keywords" content="class1, html, jairo agudelo" />
+    <meta name="title" content="Class 1 HTML" />
+    <!-- 
+        Etiquetas OG (no las manejo bien).
+     -->
+    <title>Class 1</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <figure>
+          <a href="/" aria-label="Logo Contact app">
+            <img src="logo.png" alt="Logo Contact app" title="Logo" />
+          </a>
+        </figure>
+        <ul class="list" role="menubar">
+          <li class="list__item item--overview" role="menuitem">
+            <a href="/">Overview</a>
+          </li>
+          <li class="list__item" role="menuitem"><a href="/">Contacts</a></li>
+          <li class="list__item" role="menuitem">
+            <a href="/">Favorites</a>
+          </li>
+          <li class="list__item item--newFavorite" role="menuitem">
+            <a href="/">NEW</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="form">
+        <input class="form__input" type="text" placeholder="First name" />
+        <input class="form__input" type="text" placeholder="Last name" />
+        <input class="form__input" type="email" placeholder="Email" />
+        <label for="check">
+          Enable like favorite
+          <input type="checkbox" id="check" />
+        </label>
+        <button type="submit">SAVE</button>
+      </form>
+    </main>
+  </body>
+</html>
