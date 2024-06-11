@@ -8,44 +8,62 @@
     <meta name="keywords" content="class1, html, jairo agudelo" />
     <meta name="title" content="Class 1 HTML" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
     <!-- 
         Etiquetas OG (no las manejo bien).
      -->
-    <title>Class 1</title>
+    <title>Trainin WEB UI</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <figure class="nav__figure">
           <a
-            class="figure__enlace"
+            class="nav__link_img"
             href="/"
             aria-label="Logo Contact app que redirije a la pagina principal"
           >
             <img
-              class="enlace__img"
-              src="logo.png"
+              class="nav__img"
+              src="logo2.png"
               alt="Logo Contact app"
               title="Logo"
             />
           </a>
         </figure>
-        <ul class="nav__list">
-          <li class="list__item item--overview">
-            <a aria-label="Enlace que redirije a Overview" href="/">Overview</a>
+        <ul class="nav__ul">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              aria-label="Enlace que redirije a Overview"
+              href="#"
+              >Overview</a
+            >
           </li>
-          <li class="list__item">
-            <a aria-label="Enlace que redirije a contacts" href="/">Contacts</a>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              aria-label="Enlace que redirije a contacts"
+              href="#"
+              >Contacts</a
+            >
           </li>
-          <li class="list__item">
-            <a aria-label="Enlace que redirije a favoritos" href="/"
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              aria-label="Enlace que redirije a favoritos"
+              href="#"
               >Favorites</a
             >
           </li>
+          <button class="nav__button" aria-label="Crear un nuevo favorito">
+            <img class="button__img" src="+.png" />
+            NEW
+          </button>
         </ul>
-        <button class="nav__button" aria-label="Crear un nuevo favorito">
-          + NEW
-        </button>
       </nav>
     </header>
     <main class="main">
@@ -56,6 +74,7 @@
         <label class="form__label" for="check">
           Enable like favorite
           <input class="label__input" type="checkbox" id="check" />
+          <span class="material-icons icons--check"> check_box </span>
         </label>
         <button
           class="form__button"
