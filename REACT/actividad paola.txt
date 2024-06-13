@@ -1,0 +1,25 @@
+CARACTERISTICA DE REACT - JAIRO ALBERTO AGUDELO ARREDONDO.
+
+¿Por qué react es una libreria y no un Framework?
+
+React es considerado una biblioteca en lugar de un framework debido a su enfoque más 
+flexible y modular. A diferencia de los frameworks como Angular, que proporcionan una 
+estructura y conjunto de herramientas predefinido, React se centra principalmente en la 
+construcción de interfaces de usuario (UI) y deja otras funcionalidades como el enrutamiento,
+la gestión de estado o el manejo de peticiones HTTP a otras bibliotecas o herramientas 
+externas.
+
+Esta modularidad y flexibilidad de React permiten a los desarrolladores tener más libertad 
+para elegir las herramientas y enfoques que mejor se adapten a sus necesidades. Pueden 
+combinar React con otras bibliotecas y herramientas según sea necesario, lo que brinda una 
+mayor modularidad y personalización en el desarrollo de aplicaciones.
+
+Por otro lado, los frameworks como Angular ofrecen una estructura más rígida y predefinida, 
+con funcionalidades integradas como enrutamiento, gestión de estado y manejo de solicitudes 
+HTTP. Esto proporciona una estructura coherente y consistente para el desarrollo de 
+aplicaciones, pero también puede limitar la flexibilidad y la capacidad de personalización.
+
+En resumen, React se considera una biblioteca debido a su enfoque modular y flexible, 
+que permite a los desarrolladores elegir las herramientas y enfoques que mejor se adapten 
+a sus necesidades. Los frameworks como Angular, en cambio, proporcionan una estructura 
+más rígida y predefinida para el desarrollo de aplicaciones.
