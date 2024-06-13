@@ -82,7 +82,6 @@
 /* Contenido principal */
 .main{
     padding-top: 3.6em;
-    display: flex;
 }
 
 .form{
@@ -90,7 +89,7 @@
     margin: auto;
     padding: 2em 5em;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1em;
     background-color: 
     #C1D72F;
@@ -158,4 +157,25 @@
 }
 .form__button:active{
     background-color: #C1D72F;
+}
+
+@media screen and (max-width:1000px) {
+    .form {
+        width: 50%;
+        padding: 2em 3.5em;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .form {
+        width: 70%;
+        padding: 2em 2.5em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .form{
+        width: 80%;
+        padding: 2em 1em;
+    }
 }
