@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+}
 
 /* Barra de navegacion */
 .nav{
     width: 100%;
     position: fixed;
-    background-color: #ffff;
+    background-color:  ; 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
