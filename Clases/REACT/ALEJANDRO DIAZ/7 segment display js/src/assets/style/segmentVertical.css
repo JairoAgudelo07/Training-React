@@ -1,0 +1,22 @@
+.segment-vertical-inactive,.segment-vertical{
+    position: relative;
+    width: 20px;
+    height: 100%;
+    border-radius:  30px;
+
+}
+.segment-vertical{
+    background-color: var(--color-active);
+}
+
+
+.segment-vertical-inactive{
+    background-color: var(--color-inactive);
+}
+
+.segment-vertical:first-child,.segment-vertical-inactive:first-child{
+    clip-path: polygon(0% 0%, 100% 15%, 100% 85%, 0% 100%);
+}
+.segment-vertical:last-child,.segment-vertical-inactive:last-child{
+    clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 85%);
+}

@@ -1,0 +1,19 @@
+.segment-horizontal-middle,.segment-horizontal-middle-inactive{
+    width: 75%;
+    border-right: 10px solid transparent ;
+    border-left: 10px solid transparent;
+}
+
+.segment-horizontal-middle:first-child{
+    border-bottom: 10px solid var(--color-active);
+} 
+.segment-horizontal-middle:last-child{
+    border-top: 10px solid var(--color-active);
+}
+
+.segment-horizontal-middle-inactive:first-child{
+    border-bottom: 10px solid var(--color-inactive);
+}
+.segment-horizontal-middle-inactive:last-child{
+    border-top: 10px solid var(--color-inactive);
+}

@@ -1,0 +1,11 @@
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111;
+  }
+  
+  :root {
+    --color-active: #3f5;
+    --color-inactive: #0003;
+  }

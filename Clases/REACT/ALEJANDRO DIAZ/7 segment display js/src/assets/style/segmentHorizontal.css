@@ -1,0 +1,25 @@
+.segment-horizontal, .segment-horizontal-inactive{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+    height: 16px;
+    border-radius: 5px;
+}
+
+.segment-horizontal-inactive{
+    background-color: var(--color-inactive);
+}
+.segment-horizontal{
+    background-color: var(--color-active);
+}
+
+.segment-horizontal:first-child, .segment-horizontal-inactive:first-child {
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+}
+.segment-horizontal:last-child, .segment-horizontal-inactive:last-child  {
+    bottom: 0;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+}
